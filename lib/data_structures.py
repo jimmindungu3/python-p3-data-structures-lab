@@ -28,7 +28,7 @@ def print_spicy_foods(spicy_foods):
     for food in spicy_foods:
         name = food['name']
         cuisine = food['cuisine']
-        heat_level = '🌶' * food['heat_level']  # Represent heat level with chili emojis
+        heat_level = '🌶' * food['heat_level']
 
         print(f"{name} ({cuisine}) | Heat Level: {heat_level}")
 
@@ -42,7 +42,7 @@ def print_spiciest_foods(spicy_foods):
         if food['heat_level'] > 5:
             name = food['name']
             cuisine = food['cuisine']
-            heat_level = '🌶' * food['heat_level']  # Represent heat level with chili emojis
+            heat_level = '🌶' * food['heat_level']
 
             print(f"{name} ({cuisine}) | Heat Level: {heat_level}")
 
